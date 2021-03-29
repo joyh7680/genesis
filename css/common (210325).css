@@ -1,0 +1,74 @@
+/* Genesis Sans KR Head */
+@font-face {
+      font-family: "genesis-text-office";
+      font-weight: 400;
+      src: url(../font/GenesisSansTextOffice-Regular.woff2) format("woff2");
+  }
+  
+  @font-face {
+      font-family: "genesis-head-office";
+      font-weight: 400;
+      src: url(../font/GenesisSansHeadOffice-Regular.woff2) format("woff2");
+  }
+  
+  @font-face {
+      font-family: "genesis-head-light";
+      font-weight: 400;
+      src: url(../font/GenesisSansHeadKRLight.woff2) format("woff2");
+  }
+  
+  @font-face {
+      font-family: "genesis-head-regular";
+      font-weight: 400;
+      src: url(../font/GenesisSansHeadKRRegular.woff2) format("woff2");
+  }
+  
+  @font-face {
+      font-family: "genesis-text";
+      font-weight: 400;
+      src: url(../font/GenesisSansTextKRRegular.woff2) format("woff2");
+  }
+  
+  @font-face {
+      font-family: "KFO";
+      font-weight: 400;
+      src: url(../font/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2");
+  }
+    
+   
+
+body { font-family: 'genesis-text';  font-size: 16px; line-height: 1.5; font-weight: 400; letter-spacing: normal; color: white;  }
+
+div, ul, li { background-size: cover; background-position: center center;}
+/* Layout Style */
+
+button:hover { cursor: pointer;}
+
+/* Text Style */
+
+
+h1 { 
+    font-family:'genesis-head-light';
+    font-weight: 400;  }
+
+h2 { 
+    font-family: 'genesis-head-light';  font-size: 24px; line-height: 28px; font-weight: 400; letter-spacing: normal; }
+h3 { 
+    font-family:'genesis-head-light';
+    font-weight: 400; }
+h4 {  
+    font-family:'genesis-head-light';
+    font-weight: 400;  font-size: 20px; line-height: 24px; font-weight: 500; letter-spacing: normal; }
+h5 { 
+    font-family:'genesis-head-light';
+    font-weight: 400; }
+h6 { 
+    font-family:'genesis-head-light';
+    font-weight: 400; }
+
+p { 
+    font-family: 'genesis-text';  
+    font-size: 16px; line-height: 1.5; font-weight: 400; letter-spacing: normal;
+    color: white; }
+
+
