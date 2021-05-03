@@ -1,0 +1,189 @@
+
+/* Genesis CSS */
+
+#hero {
+width: 100%;
+height: calc(100vh + 20px);
+max-height: 900px;
+background-color: yellow;
+padding-top: 70px;
+}
+.hero_slide {
+    width: 100%;
+    height: 100%;
+    background-color: rebeccapurple;
+  position: relative;
+  top: 0; left: 0;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.slide:first-child {
+    display: block;
+}
+/*  @ position abosolute 한거야 ? 왜 굳이 ? */
+.slide_gra_1 {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(17,17,17,0.3), rgba(0,0,0,0));
+    /* @ linear-gradient?? */
+}
+.slide_gra_2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background-image: linear-gradient(to top, rgba(17,17,17,0.3), rgba(0,0,0,0));
+    /* @ linear-gradient?? */
+}
+
+.slide_text {
+    width: calc(100% - 162px); 
+    /* @ clac 이걸 왜해줘 지금 ?? */
+        /* @ borderline때문인데 계산 다시 해보기 */
+    height:calc(100% - 120px);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 76px 60px;
+    margin: 0 80px;
+    border: 1px solid rgb(163, 107, 79 );
+    border-top : none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.slide_eyebrow {
+  font-family: "genesis-head-light"; 
+  font-size: 26px;
+  line-height: 28px;
+  letter-spacing: -0.65px; 
+  margin-bottom: 14px;
+}
+.slide_title {
+    font-family: "genesis-head-light"; 
+    font-size: 120px;
+    line-height: 110px;
+    letter-spacing: -3px; 
+    margin-bottom: 17px;
+}
+.slide_sub { 
+    font-family: "genesis-head-light"; 
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.65px; 
+    margin-bottom: 17px;
+}
+.slide_more {
+
+} 
+.slide_more {
+    font-family: "genesis-head-light"; 
+    font-size: 26px;
+    line-height: 28px;
+    letter-spacing: 0; 
+    margin-bottom: 33px;
+}
+.hero_slide .slide.
+
+/* link 부분만 다시하기 캡쳐보며서 */
+
+/* wht bg 에 tansition 을 주면 둘다 적용됨
+hover 에만 transition 을 주면 호버나가면 그냥 덮어버림  */
+/* link hover 됐을 때 animation? */
+/* 마우스가 올라갔을때 흰색배경이 위로 올라가고 호버가끝나면 그냥 덮임 */
+
+.link_wht {
+    font-family: "genesis-text";
+    width: 240px;
+    height: 56px;
+    line-height: 56px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    /* //a 태그라서 inline block 값 적용 */
+    text-align: center;
+    border: 1px solid white;
+
+    position: relative;
+    top: 0; left: 0;
+    overflow: hidden;
+}
+.link_wht_bg {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+}
+.link_wht_text {
+    color: black;
+}
+.link_wht:hover {
+    background-color: black;
+    color: white;
+    transition: all ;
+}
+.link_blk {
+    font-family: "genesis-text";
+    width: 240px;
+    height: 56px;
+    line-height: 56px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    /* //a 태그라서 inline block 값 적용 */
+    text-align: center;
+    margin-left: 24px;
+    border: 1px solid white;
+}
+.link_blk:hover {
+    background-color: white;
+    color: black;
+}
+.index {
+    position: absolute;
+    bottom: 80px; left: 0;
+}
+.index_btn {
+    width: 12px ;
+    height: 12px;
+    border: 2px solid rgb(255,255,255);
+    background-color:  rgba(255,255,255,0.4);
+    margin: 0 4px;
+    text-align: center;
+    padding-bottom: 4px ;
+    display: flex;
+    align-items: center;
+}
+
+.index_btn_bullet {
+    border: 0px solid rgb(255,255,255);
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 8px;
+    display: block;
+    width: 8px;
+    height: 8px;
+}
+.index_btn_bullet:nth-child(1) .index_btn_bullet {
+    border : 2px solid rgb(255,255,255);
+    width: 10px; height: 10px;
+}
+
+.index_btn_play {
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+}
